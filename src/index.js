@@ -11,7 +11,12 @@ function(){
 		sources.forEach(function(source){
 			self.prependProto(target,source)
 		})
+		return target;
 	}
 	
+	res.pushDeeper = function(obj){
+		
+	}
+	//new change
 	return res;
 }()
